@@ -1,0 +1,6 @@
+Kubernetes, often abbrevited as K8s, is an open source container orchestration platform that automates the deployment, scaling, and management of containerized applications. 
+Key Features of Kubernetes include:
+1. Automatic Scaling
+2. Automatic healing
+3. Service Discovery and Load Balancing
+4. Container Orchestration
