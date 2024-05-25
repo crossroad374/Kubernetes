@@ -1,0 +1,18 @@
+Kubernetes Architecture Components
+
+Master Node(Control Plane)
+
+* API SERVER: Serves as the frontend of the kubernetes control plane. It exposes the kubernetes API, which is used by all components to communicate and manage the cluster.
+* etcd : A distributed key-value store used to store all cluster data. It is the source of truth for the cluster's state.
+* Controller Manager: Runs controller processes that regulate the state of the cluster, ensuring the desired state is maintained.
+* Scheduler: Assigns workload(pods) to nodes based on resource availability and other constraints.
+
+Worker Node(Data Plane)
+
+* Kubelet: An agent that runs on each worker node and ensures containers are running in pods as expected. It communicates with the API server.
+* Kube-proxy: Manages network connectivity and load balancing for services running on the worker node.
+* Container runtime: Software responsible for running containers(ex: Docker, containerd)
+
+Pods: The smallest deployable units in k8S. Which can contain one or more containers. Pods share storage and network resources with each other via localhost.
+
+
