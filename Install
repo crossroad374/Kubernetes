@@ -1,0 +1,9 @@
+For practise purpose , install minikube using below mentioned link.
+
+https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download
+
+Install Kubectl using below mention link.
+
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+
+Note: Kindly make sure that container run time environment like docker is already installed in your virtual machine or EC2 instance otherwise minikube fails to start.
