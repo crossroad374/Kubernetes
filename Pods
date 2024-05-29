@@ -1,0 +1,5 @@
+A pod is the smallest deployable unit in K8s. It encapsulates one or more containers, which are the applications or services that you run. They are ephemeral and can be created, destroyed and re-created based on the needs of the cluster. It can contain a single container or multiple containers that need to work together. In the latter case, the containers share resources and communicate with each other using local host.
+
+Kindly go to below mentioned link for a better understanding
+
+https://kubernetes.io/docs/concepts/workloads/pods/
