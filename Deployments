@@ -1,0 +1,9 @@
+In K8s , a Deployment is a higher-level abstraction that manages the creation, updating and scaling of pods. They are used to make sure that a specified number of pod replicas are running at any given time. They handle the orchestration of pod creation, updates and rollbacks. It is defined using Yaml or JSON files.
+
+Components:
+ReplicaSet : Deployments create and manage ReplicaSets, which in turn manage the pods. A replicaSet ensures that a specified number of pod replicas are running at any given time.
+Pods: The actual instances of your application that are created and managed by the replicaSet.
+
+Kindly follow the below mentioned link to understand it better
+
+https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
